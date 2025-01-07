@@ -16,7 +16,7 @@ field.addEventListener('click', function (event) {
 
     const maxX = field.offsetWidth - ballWidth - field.clientLeft
     const maxY = field.offsetHeight - ballHeight - field.clientTop
-
+    
     let limitedX = Math.max(0, Math.min(newX, maxX))
     let limitedY = Math.max(0, Math.min(newY, maxY))
 
